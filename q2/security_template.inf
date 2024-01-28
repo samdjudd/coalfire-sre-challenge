@@ -1,0 +1,2 @@
+[Privilege Rights]
+SeDenyNetworkLogonRight = GuestUsers, LocalUsers, AdminMembers
