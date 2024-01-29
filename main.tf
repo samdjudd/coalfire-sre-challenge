@@ -18,7 +18,6 @@ module "vpc" {
   vpc_cidr = "10.1.0.0/16"
 }
 
-
 module "subnets" {
   source               = "./modules/subnets"
   vpc_id               = module.vpc.vpc_id

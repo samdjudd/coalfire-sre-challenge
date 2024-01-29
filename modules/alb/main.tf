@@ -31,8 +31,6 @@ resource "aws_lb_listener" "listener" {
     type             = "forward"
     target_group_arn = aws_lb_target_group.instance.arn
   }
-#   ssl_policy = "ELBSecurityPolicy-2016-08"
-#   certificate_arn = "arn:aws:acm:us-west-1:975049900959:certificate/47627c36-6ef8-488a-aa9c-afc1ed72aa16"
 }
 
 resource "aws_lb_target_group" "instance" {
