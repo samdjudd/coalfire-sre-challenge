@@ -117,6 +117,7 @@ Documentation can be found in the README of the `q2` directory along with the co
 - RDS, Route53 and CloudWatch were omitted from my Terraform given that there was no real web app to host.
 - I hard coded a key-pair to connect to my ec2 instances via ssh
 - I created a manual security group that allowed ssh and rdp from my IP address (and the bastion host) manually.
+- I decided to use Terraform modules to accomplish this task and separated all of the components by function (alb, ec2, rds, subnets, vpc). Doing this makes my system scalable and easy to read.
 
 Here is the first time connecting to the windows server via RDP.
 
