@@ -108,9 +108,9 @@ Action Items:
 - Train relevant engineers on the new process.
 - Schedule regular architecture audits to discuss necessary improvements to the system.
 
-### Question 2 & 3:
+### Question:
 
-Documentation can be found in the README of my repository along with the codified solution.
+Documentation can be found in the README of the `q2` directory along with the codified solutions.
 
 ## Terraform Submission Notes:
 
