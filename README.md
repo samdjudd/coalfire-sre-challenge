@@ -112,7 +112,7 @@ Action Items:
 
 Documentation can be found in the README of my repository along with the codified solution.
 
-### Submission Notes:
+## Terraform Submission Notes:
 
 - RDS, Route53 and CloudWatch were omitted from my Terraform given that there was no real web app to host.
 - I hard coded a key-pair to connect to my ec2 instances via ssh
